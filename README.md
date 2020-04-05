@@ -1,2 +1,2 @@
-# hack-the-crisis-citizens-sience
+# hack-the-crisis-citizens-science
 Mockup only for now :)
