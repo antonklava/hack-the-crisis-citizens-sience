@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Citizens sience</title>
+    <link
+      rel="stylesheet"
+      href="./govstrap.css"
+      type="text/css"
+      media="screen"
+      charset="utf-8"
+    />
+  </head>
+  <body class="d-flex flex-column">
+    <header class="container">
+      <div class="row pl-1 mr-auto ml-auto">
+        <nav
+          class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 navbar navbar-expand-md navbar-dark"
+          id="navbar"
+        >
+          <a class="navbar-brand" href="./index.html">Citizens sience</a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="./peer-reviewed-items.html"
+                  >Peer reviewed items</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./submit-for-review.html"
+                  >Submit for review</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="container">
+        <div class="alert alert-primary" role="alert">
+          This is a mockup. This service does not yet work.
+        </div>
+
+        <article>
+          <h1 class="mb-4">Submit for review</h1>
+          <p>
+            Items submitted for review will be sent to a random group of citizen
+            reviewers. Once the submission has passed enough reviews it will be
+            made available on the site.
+          </p>
+          <form accept-charset="utf-8">
+            <div class="form-group">
+              <label for="submitUrl">URL</label>
+              <input
+                type="text"
+                name="submitUrl"
+                id="submitUrl"
+                value=""
+                class="form-control"
+              />
+              <small>The link must be publicly accessible.</small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email (optional)</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value=""
+                class="form-control"
+              />
+              <small
+                >Leave your email to be notified as your submission gets
+                reviewed.</small
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Submit for review
+            </button>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="container-fluid footer">
+        <div class="row ml-auto mr-auto pl-1">
+          <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 pt-3">
+            <p>
+              Created as part of
+              <a href="http://hackthecrisis.se">Hack the Crisis</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
